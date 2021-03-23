@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>Вход в LightChat</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="style.css"/>
+    <script src="../src/app.js"></script>
+    
+  </head>
+  <body>
+    <div class="screen flex-center">
+        <form class="login-box flex-center" action="./chatList.html" method="GET">
+          <div class="login-top flex-center">
+            <label class="big-label">Вход</label>
+          </div>
+          <div class="login-middle flex-center"> 
+              <label for="login" class="flex-left">Логин</label>
+              <input id="login" name="login"/>
+              <label for="password" class="flex-left">Пароль</label>
+              <input id="password" type="password" name="password"/>
+          </div>
+          <div class="login-bottom flex-center"> 
+            <button type="submit">Войти</button>
+            <a href="registry.html">Нет аккаунта?</a>
+          </div>
+        </form>
+
+        <footer class="flex-center">
+          <a class = "flex-center" href="auth.html">Авторизация</a>
+          <a class = "flex-center" href="registry.html">Регистрация</a>
+          <a class = "flex-center" href="chatList.html">Список чатов</a>
+          <a class = "flex-center" href="chat.html">Лента переписки</a>
+          <a class = "flex-center" href="profile.html">Настройки пользователя</a>
+          <a class = "flex-center" href="error404.html">Ошибка 404</a>
+          <a class = "flex-center" href="error5xx.html">Ошибка 5xx</a>
+      </footer>
+
+    </div>
+  </body>
+</html>
