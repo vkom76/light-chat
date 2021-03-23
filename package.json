@@ -4,8 +4,8 @@
   "description": "Пример чата",
   "main": "src/app.js",
   "scripts": {
-    "dev": "parcel static/index.html",
-    "prod": "parcel build static/index.html"
+    "dev": "parcel static/auth.html",
+    "prod": "parcel build static/auth.html"
   },
   "author": "",
   "license": "ISC",
