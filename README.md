@@ -1,2 +1,2 @@
-# light-chat
-Just one more chat sample
+# LightChat Web App
+Пример чата - веб-приложение создаваемое в рамках прохождения Спринт-1,2 Middle Front-end Яндекс.Практикум.
