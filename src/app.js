@@ -1,16 +1,9 @@
-'use strict';
+const express = require('express')
+const app = express()
+const port = 3003;
 
-function start(){
-    //let rootDiv = document.getElementById('root');
-    //let msgSpan = document.createElement('span');
-    //msgSpan.innerText = "Это работает!";
-    //rootDiv.appendChild(msgSpan);
-    //alert('test');
-}
+app.use(express.static('./'));
 
-function enter(){
-    let login = document.getElementById('login');
-    let password = document.getElementById('password');
-
-    
-}
+app.listen(port, () => {
+  console.log(`LightChat available at http://localhost:${port}`)
+})

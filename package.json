@@ -2,14 +2,16 @@
   "name": "light-chat",
   "version": "1.0.0",
   "description": "Пример чата",
-  "main": "src/app.js",
+  "main": "index.html",
   "scripts": {
-    "dev": "parcel static/auth.html",
-    "prod": "parcel build static/auth.html"
+    "dev": "parcel build ./static/*.* && node ./src/app.js",
+    "prod": "parcel build ./static/*.*"
   },
-  "author": "",
+  "author": "Victor Komarov",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.5",
+    "express": "^4.17.1"
   }
 }
